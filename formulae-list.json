@@ -1,0 +1,450 @@
+[
+  {
+    "name": "aria2",
+    "desc": "Download with resuming and segmented downloading",
+    "homepage": "https://aria2.github.io/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "1.36.0_1"
+  },
+  {
+    "name": "asdf",
+    "desc": "Extendable version manager with support for Ruby, Node.js, Erlang & more",
+    "homepage": "https://asdf-vm.com/",
+    "tap": "homebrew/core",
+    "caveats": "To use asdf, add the following line (or equivalent) to your shell profile\ne.g. ~/.profile or ~/.zshrc:\n  . $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.sh\nRestart your terminal for the settings to take effect.\n",
+    "linked_keg": "0.11.3"
+  },
+  {
+    "name": "autojump",
+    "desc": "Shell extension to jump to frequently used directories",
+    "homepage": "https://github.com/wting/autojump",
+    "tap": "homebrew/core",
+    "caveats": "Add the following line to your ~/.bash_profile or ~/.zshrc file:\n  [ -f $HOMEBREW_PREFIX/etc/profile.d/autojump.sh ] && . $HOMEBREW_PREFIX/etc/profile.d/autojump.sh\n\nIf you use the Fish shell then add the following line to your ~/.config/fish/config.fish:\n  [ -f $HOMEBREW_PREFIX/share/autojump/autojump.fish ]; and source $HOMEBREW_PREFIX/share/autojump/autojump.fish\n\nRestart your terminal for the settings to take effect.\n",
+    "linked_keg": "22.5.3_3"
+  },
+  {
+    "name": "bat",
+    "desc": "Clone of cat(1) with syntax highlighting and Git integration",
+    "homepage": "https://github.com/sharkdp/bat",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.23.0"
+  },
+  {
+    "name": "bottom",
+    "desc": "Yet another cross-platform graphical process/system monitor",
+    "homepage": "https://clementtsang.github.io/bottom/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.8.0"
+  },
+  {
+    "name": "chisel",
+    "desc": "Collection of LLDB commands to assist debugging iOS apps",
+    "homepage": "https://github.com/facebook/chisel",
+    "tap": "homebrew/core",
+    "caveats": "Add the following line to ~/.lldbinit to load chisel when Xcode launches:\n  command script import $HOMEBREW_PREFIX/opt/chisel/libexec/fbchisellldb.py\n",
+    "linked_keg": "2.0.1"
+  },
+  {
+    "name": "csview",
+    "desc": "High performance csv viewer for cli",
+    "homepage": "https://github.com/wfxr/csview",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "1.2.2"
+  },
+  {
+    "name": "deno",
+    "desc": "Secure runtime for JavaScript and TypeScript",
+    "homepage": "https://deno.land/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "1.32.4"
+  },
+  {
+    "name": "diskonaut",
+    "desc": "Terminal visual disk space navigator",
+    "homepage": "https://github.com/imsnif/diskonaut",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.11.0"
+  },
+  {
+    "name": "docbook",
+    "desc": "Standard SGML representation system for technical documents",
+    "homepage": "https://docbook.org/",
+    "tap": "homebrew/core",
+    "caveats": "To use the DocBook package in your XML toolchain,\nyou need to add the following to your ~/.bashrc:\n\nexport XML_CATALOG_FILES=\"$HOMEBREW_PREFIX/etc/xml/catalog\"\n",
+    "linked_keg": "5.1_1"
+  },
+  {
+    "name": "dog",
+    "desc": "Command-line DNS client",
+    "homepage": "https://dns.lookup.dog/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.1.0"
+  },
+  {
+    "name": "dua-cli",
+    "desc": "View disk space usage and delete unwanted data, fast",
+    "homepage": "https://lib.rs/crates/dua-cli",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "2.19.2"
+  },
+  {
+    "name": "elm",
+    "desc": "Functional programming language for building browser-based GUIs",
+    "homepage": "https://elm-lang.org",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.19.1"
+  },
+  {
+    "name": "emacs",
+    "desc": "GNU Emacs text editor",
+    "homepage": "https://www.gnu.org/software/emacs/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "28.2"
+  },
+  {
+    "name": "erdtree",
+    "desc": "Multi-threaded file-tree visualizer and disk usage analyzer",
+    "homepage": "https://github.com/solidiquis/erdtree",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "1.8.1"
+  },
+  {
+    "name": "exa",
+    "desc": "Modern replacement for 'ls'",
+    "homepage": "https://the.exa.website",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.10.1_1"
+  },
+  {
+    "name": "fd",
+    "desc": "Simple, fast and user-friendly alternative to find",
+    "homepage": "https://github.com/sharkdp/fd",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "8.7.0"
+  },
+  {
+    "name": "fish",
+    "desc": "User-friendly command-line shell for UNIX-like operating systems",
+    "homepage": "https://fishshell.com",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "3.6.1"
+  },
+  {
+    "name": "fzf",
+    "desc": "Command-line fuzzy finder written in Go",
+    "homepage": "https://github.com/junegunn/fzf",
+    "tap": "homebrew/core",
+    "caveats": "To install useful keybindings and fuzzy completion:\n  $HOMEBREW_PREFIX/opt/fzf/install\n\nTo use fzf in Vim, add the following line to your .vimrc:\n  set rtp+=$HOMEBREW_PREFIX/opt/fzf\n",
+    "linked_keg": "0.39.0"
+  },
+  {
+    "name": "geos",
+    "desc": "Geometry Engine",
+    "homepage": "https://libgeos.org/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "3.11.2"
+  },
+  {
+    "name": "gh",
+    "desc": "GitHub command-line tool",
+    "homepage": "https://github.com/cli/cli",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "2.27.0"
+  },
+  {
+    "name": "git-delta",
+    "desc": "Syntax-highlighting pager for git and diff output",
+    "homepage": "https://github.com/dandavison/delta",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.15.1"
+  },
+  {
+    "name": "gping",
+    "desc": "Ping, but with a graph",
+    "homepage": "https://github.com/orf/gping",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "1.8.0"
+  },
+  {
+    "name": "graphviz",
+    "desc": "Graph visualization software from AT&T and Bell Labs",
+    "homepage": "https://graphviz.org/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "8.0.2"
+  },
+  {
+    "name": "helix",
+    "desc": "Post-modern modal text editor",
+    "homepage": "https://helix-editor.com",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "23.03"
+  },
+  {
+    "name": "hexyl",
+    "desc": "Command-line hex viewer",
+    "homepage": "https://github.com/sharkdp/hexyl",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.12.0"
+  },
+  {
+    "name": "htmlq",
+    "desc": "Uses CSS selectors to extract bits content from HTML files",
+    "homepage": "https://github.com/mgdm/htmlq",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.4.0"
+  },
+  {
+    "name": "httpie",
+    "desc": "User-friendly cURL replacement (command-line HTTP client)",
+    "homepage": "https://httpie.io/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "3.2.1"
+  },
+  {
+    "name": "hyperfine",
+    "desc": "Command-line benchmarking tool",
+    "homepage": "https://github.com/sharkdp/hyperfine",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "1.16.1"
+  },
+  {
+    "name": "jinja2-cli",
+    "desc": "CLI for the Jinja2 templating language",
+    "homepage": "https://github.com/mattrobenolt/jinja2-cli",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.8.2"
+  },
+  {
+    "name": "jq",
+    "desc": "Lightweight and flexible command-line JSON processor",
+    "homepage": "https://stedolan.github.io/jq/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "1.6"
+  },
+  {
+    "name": "jql",
+    "desc": "JSON query language CLI tool",
+    "homepage": "https://github.com/yamafaktory/jql",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "5.2.0"
+  },
+  {
+    "name": "just",
+    "desc": "Handy way to save and run project-specific commands",
+    "homepage": "https://github.com/casey/just",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "1.13.0"
+  },
+  {
+    "name": "libffi",
+    "desc": "Portable Foreign Function Interface library",
+    "homepage": "https://sourceware.org/libffi/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": null
+  },
+  {
+    "name": "luajit-openresty",
+    "desc": "OpenResty's Branch of LuaJIT 2",
+    "homepage": "https://github.com/openresty/luajit2",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": null
+  },
+  {
+    "name": "mysql-client",
+    "desc": "Open source relational database management system",
+    "homepage": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": null
+  },
+  {
+    "name": "ncdu",
+    "desc": "NCurses Disk Usage",
+    "homepage": "https://dev.yorhel.nl/ncdu",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "2.2.2"
+  },
+  {
+    "name": "neovim",
+    "desc": "Ambitious Vim-fork focused on extensibility and agility",
+    "homepage": "https://neovim.io/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.9.0"
+  },
+  {
+    "name": "node",
+    "desc": "Platform built on V8 to build network applications",
+    "homepage": "https://nodejs.org/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "19.9.0"
+  },
+  {
+    "name": "nushell",
+    "desc": "Modern shell for the GitHub era",
+    "homepage": "https://www.nushell.sh",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.78.0"
+  },
+  {
+    "name": "p7zip",
+    "desc": "7-Zip (high compression file archiver) implementation",
+    "homepage": "https://github.com/p7zip-project/p7zip",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "17.05"
+  },
+  {
+    "name": "pandoc",
+    "desc": "Swiss-army knife of markup format conversion",
+    "homepage": "https://pandoc.org/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "3.1.2"
+  },
+  {
+    "name": "pgcli",
+    "desc": "CLI for Postgres with auto-completion and syntax highlighting",
+    "homepage": "https://pgcli.com/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "3.5.0_1"
+  },
+  {
+    "name": "postgresql@15",
+    "desc": "Object-relational database system",
+    "homepage": "https://www.postgresql.org/",
+    "tap": "homebrew/core",
+    "caveats": "This formula has created a default database cluster with:\n  initdb --locale=C -E UTF-8 $HOMEBREW_PREFIX/var/postgresql@15\nFor more details, read:\n  https://www.postgresql.org/docs/15/app-initdb.html\n",
+    "linked_keg": null
+  },
+  {
+    "name": "pspg",
+    "desc": "Unix pager optimized for psql",
+    "homepage": "https://github.com/okbob/pspg",
+    "tap": "homebrew/core",
+    "caveats": "Add the following line to your psql profile (e.g. ~/.psqlrc)\n  \\setenv PAGER pspg\n  \\pset border 2\n  \\pset linestyle unicode\n",
+    "linked_keg": "5.7.5"
+  },
+  {
+    "name": "rargs",
+    "desc": "Util like xargs + awk with pattern matching support",
+    "homepage": "https://github.com/lotabout/rargs",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.3.0"
+  },
+  {
+    "name": "ripgrep",
+    "desc": "Search tool like grep and The Silver Searcher",
+    "homepage": "https://github.com/BurntSushi/ripgrep",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "13.0.0"
+  },
+  {
+    "name": "rtx",
+    "desc": "Polyglot runtime manager (asdf rust clone)",
+    "homepage": "https://github.com/jdxcode/rtx",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "1.28.4"
+  },
+  {
+    "name": "sd",
+    "desc": "Intuitive find & replace CLI",
+    "homepage": "https://github.com/chmln/sd",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.7.6_1"
+  },
+  {
+    "name": "starship",
+    "desc": "Cross-shell prompt for astronauts",
+    "homepage": "https://starship.rs",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "1.14.2"
+  },
+  {
+    "name": "tealdeer",
+    "desc": "Very fast implementation of tldr in Rust",
+    "homepage": "https://github.com/dbrgn/tealdeer",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "1.6.1"
+  },
+  {
+    "name": "tmux",
+    "desc": "Terminal multiplexer",
+    "homepage": "https://tmux.github.io/",
+    "tap": "homebrew/core",
+    "caveats": "Example configuration has been installed to:\n  $HOMEBREW_PREFIX/opt/tmux/share/tmux\n",
+    "linked_keg": "3.3a_2"
+  },
+  {
+    "name": "typst",
+    "desc": "Markup-based typesetting system",
+    "homepage": "https://github.com/typst/typst",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.2.0"
+  },
+  {
+    "name": "xh",
+    "desc": "Friendly and fast tool for sending HTTP requests",
+    "homepage": "https://github.com/ducaale/xh",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.18.0"
+  },
+  {
+    "name": "you-get",
+    "desc": "Dumb downloader that scrapes the web",
+    "homepage": "https://you-get.org/",
+    "tap": "homebrew/core",
+    "caveats": "To use post-processing options, run `brew install ffmpeg` or `brew install libav`.",
+    "linked_keg": "0.4.1650"
+  },
+  {
+    "name": "zoxide",
+    "desc": "Shell extension to navigate your filesystem faster",
+    "homepage": "https://github.com/ajeetdsouza/zoxide",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.9.0"
+  }
+]
