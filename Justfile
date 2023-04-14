@@ -29,3 +29,4 @@ install:
     EOF
     )
     git commit -am "$COMMIT_MSG"
+    git push
