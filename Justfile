@@ -16,7 +16,7 @@ install:
     MSG=$(./scripts/list-diff.py); test -z "$MSG" && echo "Nothing changes" || echo "$MSG"
 
 # commit & push formulae changes
-@push-changes:
+push-changes:
     #!/usr/bin/env bash
     MSG=$(./scripts/list-diff.py)
     if [[ -z $MSG ]]; then
