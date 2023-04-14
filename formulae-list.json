@@ -232,6 +232,14 @@
     "linked_keg": "1.16.1"
   },
   {
+    "name": "imagemagick",
+    "desc": "Tools and libraries to manipulate images in many formats",
+    "homepage": "https://imagemagick.org/index.php",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "7.1.1-6"
+  },
+  {
     "name": "jinja2-cli",
     "desc": "CLI for the Jinja2 templating language",
     "homepage": "https://github.com/mattrobenolt/jinja2-cli",
@@ -246,14 +254,6 @@
     "tap": "homebrew/core",
     "caveats": null,
     "linked_keg": "1.6"
-  },
-  {
-    "name": "jql",
-    "desc": "JSON query language CLI tool",
-    "homepage": "https://github.com/yamafaktory/jql",
-    "tap": "homebrew/core",
-    "caveats": null,
-    "linked_keg": "5.2.0"
   },
   {
     "name": "just",
@@ -381,7 +381,7 @@
     "homepage": "https://github.com/jdxcode/rtx",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.28.4"
+    "linked_keg": "1.28.5"
   },
   {
     "name": "sd",
