@@ -11,6 +11,10 @@ generate-list:
 install:
     jq '.[]|.["name"]' {{list_file}} | xargs brew install
 
+# preview changes
+@preview:
+    MSG=$(./scripts/list-diff.py); test -z "$MSG" && echo "Nothing changes" || echo "$MSG"
+
 # commit & push formulae changes
 @push-changes:
     #!/usr/bin/env bash
