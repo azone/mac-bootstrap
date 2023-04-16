@@ -8,8 +8,13 @@ generate-list:
     jq '[.[]|{"name", "desc", "homepage", "tap", "caveats", "linked_keg"}]' > {{list_file}}
 
 # install formulae in the list file
-install:
+install-all:
     jq '.[]|.["name"]' {{list_file}} | xargs brew install
+
+# install interactively
+install:
+    jq -r '.[]."name"' {{list_file}} | fzf -m --bind 'alt-a:select-all,alt-d:deselect-all' | \
+    xargs brew install
 
 # preview changes
 @preview:
