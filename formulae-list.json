@@ -197,7 +197,7 @@
     "homepage": "https://graphviz.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "8.0.2"
+    "linked_keg": "8.0.3"
   },
   {
     "name": "helix",
@@ -245,7 +245,7 @@
     "homepage": "https://imagemagick.org/index.php",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "7.1.1-6"
+    "linked_keg": "7.1.1-7"
   },
   {
     "name": "jinja2-cli",
