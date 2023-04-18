@@ -40,6 +40,14 @@
     "linked_keg": "0.8.0"
   },
   {
+    "name": "broot",
+    "desc": "New way to see and navigate directory trees",
+    "homepage": "https://dystroy.org/broot/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "1.21.2"
+  },
+  {
     "name": "chisel",
     "desc": "Collection of LLDB commands to assist debugging iOS apps",
     "homepage": "https://github.com/facebook/chisel",
