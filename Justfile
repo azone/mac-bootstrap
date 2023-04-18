@@ -13,7 +13,9 @@ install-all:
 
 # install interactively
 install:
-    jq -r '.[]."name"' {{list_file}} | fzf -m --bind 'alt-a:select-all,alt-d:deselect-all' | \
+    #!/usr/bin/env bash
+    comm -13i <(brew leaves) <(jq -r '.[]."name"' {{list_file}}) | \
+    fzf -m --bind 'alt-a:select-all,alt-d:deselect-all' | \
     xargs brew install
 
 # preview changes
