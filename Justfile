@@ -3,7 +3,7 @@ list_file := "formulae-list.json"
 default: generate-list
 
 # generate installed homebrew formulae list json file
-@generate-list:
+@generate-list: && preview
     brew leaves | xargs brew info --json | \
     jq '[.[]|{"name", "desc", "homepage", "tap", "caveats", "linked_keg"}]' > {{list_file}}
 
