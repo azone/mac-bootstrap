@@ -144,6 +144,14 @@
     "linked_keg": "8.7.0"
   },
   {
+    "name": "ffmpeg",
+    "desc": "Play, record, convert, and stream audio and video",
+    "homepage": "https://ffmpeg.org/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "6.0"
+  },
+  {
     "name": "fish",
     "desc": "User-friendly command-line shell for UNIX-like operating systems",
     "homepage": "https://fishshell.com",
@@ -197,7 +205,7 @@
     "homepage": "https://graphviz.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "8.0.3"
+    "linked_keg": "8.0.4"
   },
   {
     "name": "helix",
@@ -245,7 +253,7 @@
     "homepage": "https://imagemagick.org/index.php",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "7.1.1-7"
+    "linked_keg": "7.1.1-8"
   },
   {
     "name": "jinja2-cli",
@@ -365,7 +373,7 @@
     "homepage": "https://github.com/okbob/pspg",
     "tap": "homebrew/core",
     "caveats": "Add the following line to your psql profile (e.g. ~/.psqlrc)\n  \\setenv PAGER pspg\n  \\pset border 2\n  \\pset linestyle unicode\n",
-    "linked_keg": "5.7.5"
+    "linked_keg": "5.7.6"
   },
   {
     "name": "rargs",
@@ -389,7 +397,7 @@
     "homepage": "https://github.com/jdxcode/rtx",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.28.6"
+    "linked_keg": "1.29.1"
   },
   {
     "name": "sd",
@@ -406,6 +414,14 @@
     "tap": "homebrew/core",
     "caveats": null,
     "linked_keg": "1.14.2"
+  },
+  {
+    "name": "taskwarrior-tui",
+    "desc": "Terminal user interface for taskwarrior",
+    "homepage": "https://github.com/kdheepak/taskwarrior-tui",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.23.7"
   },
   {
     "name": "tealdeer",
