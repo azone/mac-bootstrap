@@ -45,7 +45,7 @@
     "homepage": "https://dystroy.org/broot/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.21.2"
+    "linked_keg": "1.21.3"
   },
   {
     "name": "chisel",
@@ -69,7 +69,7 @@
     "homepage": "https://deno.land/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.32.5"
+    "linked_keg": "1.33.2"
   },
   {
     "name": "diskonaut",
@@ -125,7 +125,7 @@
     "homepage": "https://github.com/solidiquis/erdtree",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.8.1"
+    "linked_keg": "2.0.0"
   },
   {
     "name": "exa",
@@ -165,7 +165,7 @@
     "homepage": "https://github.com/junegunn/fzf",
     "tap": "homebrew/core",
     "caveats": "To install useful keybindings and fuzzy completion:\n  $HOMEBREW_PREFIX/opt/fzf/install\n\nTo use fzf in Vim, add the following line to your .vimrc:\n  set rtp+=$HOMEBREW_PREFIX/opt/fzf\n",
-    "linked_keg": "0.39.0"
+    "linked_keg": "0.40.0"
   },
   {
     "name": "geos",
@@ -181,7 +181,7 @@
     "homepage": "https://github.com/cli/cli",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2.27.0"
+    "linked_keg": "2.28.0"
   },
   {
     "name": "git-delta",
@@ -205,7 +205,7 @@
     "homepage": "https://graphviz.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "8.0.4"
+    "linked_keg": "8.0.5"
   },
   {
     "name": "helix",
@@ -253,7 +253,7 @@
     "homepage": "https://imagemagick.org/index.php",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "7.1.1-8"
+    "linked_keg": "7.1.1-8_1"
   },
   {
     "name": "jinja2-cli",
@@ -325,7 +325,7 @@
     "homepage": "https://nodejs.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "20.0.0"
+    "linked_keg": "20.1.0"
   },
   {
     "name": "nushell",
@@ -333,7 +333,7 @@
     "homepage": "https://www.nushell.sh",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.78.0"
+    "linked_keg": "0.79.0_1"
   },
   {
     "name": "p7zip",
@@ -397,7 +397,7 @@
     "homepage": "https://github.com/jdxcode/rtx",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.29.1"
+    "linked_keg": "1.29.6"
   },
   {
     "name": "sd",
@@ -445,7 +445,7 @@
     "homepage": "https://github.com/typst/typst",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.2.0"
+    "linked_keg": "0.3.0"
   },
   {
     "name": "xh",
@@ -454,6 +454,14 @@
     "tap": "homebrew/core",
     "caveats": null,
     "linked_keg": "0.18.0"
+  },
+  {
+    "name": "xplr",
+    "desc": "Hackable, minimal, fast TUI file explorer",
+    "homepage": "https://github.com/sayanarijit/xplr",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.21.1"
   },
   {
     "name": "you-get",
@@ -469,6 +477,6 @@
     "homepage": "https://github.com/ajeetdsouza/zoxide",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.9.0"
+    "linked_keg": "0.9.1"
   }
 ]
