@@ -63,8 +63,8 @@ def crate_diff_message():
         list = f.readlines()
     crates = dict(map(lambda x: x.strip().split(' '), list))
     try:
-        old_content = subprocess.check_output(['git', 'show', 'HEAD:installed-crates-bins.json'], stderr=subprocess.DEVNULL)
-        old_list = old_content.decode('utf-8').split('\n')
+        old_content = subprocess.check_output(['git', 'show', 'HEAD:installed-crates-bins.txt'], stderr=subprocess.DEVNULL)
+        old_list = old_content.decode('utf-8').strip().split('\n')
         old_crates = dict(map(lambda x: x.strip().split(' '), old_list))
     except subprocess.CalledProcessError:
         old_crates = {}
