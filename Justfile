@@ -1,7 +1,10 @@
 list_file := "formulae-list.json"
 
-# generate-list is the default recipe
-default: generate-list
+# generate all lists
+@default:
+    just generate-list > /dev/null
+    just generate-cask-list > /dev/null
+    just generate-crate-list
 
 # generate installed homebrew formulae list json file
 @generate-list: && preview
@@ -57,3 +60,16 @@ push-changes:
     jq -r '.[]|{"token", "installed"} | "\(.token) \(.installed)"' installed-casks.json | \
     fzf -m --bind 'alt-a:select-all,alt-d:deselect-all' | \
     cut -d' ' -f1 | xargs brew install --cask
+
+# generate installed rust crates list json file
+@generate-crate-list: && preview
+    cargo install --list | grep -E '^\w' | tr -d ':' > installed-crates-bins.txt
+
+# install all crates in the list file
+@crate-install-all:
+    cat installed-crates-bins.txt | cut -d ' ' -f1 | xargs cargo install
+
+# install crates interactively
+@crate-install:
+    cat installed-crates-bins.txt | fzf -m --bind 'alt-a:select-all,alt-d:deselect-all' | \
+    cut -d ' ' -f1 | xargs cargo install

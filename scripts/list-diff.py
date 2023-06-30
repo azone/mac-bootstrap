@@ -56,12 +56,53 @@ def cask_diff_message():
     if changed:
         changed_info = ['  - {}({} -> {})'.format(f, old_casks[f]['installed'], casks[f]['installed']) for f in changed]
         message.append('Updated:\n' + '\n'.join(changed_info))
-    combined_message = '\n\n'.join(message)
-    if combined_message:
-        return 'Casks:\n----------\n' + combined_message
-    return combined_message
+    return '\n\n'.join(message)
+
+def crate_diff_message():
+    with open('./installed-crates-bins.txt') as f:
+        list = f.readlines()
+    crates = dict(map(lambda x: x.strip().split(' '), list))
+    try:
+        old_content = subprocess.check_output(['git', 'show', 'HEAD:installed-crates-bins.json'], stderr=subprocess.DEVNULL)
+        old_list = old_content.decode('utf-8').split('\n')
+        old_crates = dict(map(lambda x: x.strip().split(' '), old_list))
+    except subprocess.CalledProcessError:
+        old_crates = {}
+
+    old_keys = set(old_crates.keys())
+    new_keys = set(crates.keys())
+
+    added = sorted(new_keys - old_keys)
+    removed = sorted(old_keys - new_keys)
+    changed = sorted(o for o in old_keys & new_keys if crates[o] != old_crates[o])
+    message = []
+    if added:
+        added_info = ['  - {}({})'.format(f, crates[f]) for f in added]
+        message.append('Added:\n' + '\n'.join(added_info))
+    if removed:
+        removed_info = ['  - {}({})'.format(f, old_crates[f]) for f in removed]
+        message.append('Removed:\n' + '\n'.join(removed_info))
+    if changed:
+        changed_info = ['  - {}({} -> {})'.format(f, old_crates[f], crates[f]) for f in changed]
+        message.append('Updated:\n' + '\n'.join(changed_info))
+
+    return '\n\n'.join(message)
+    
 
 if __name__ == '__main__':
-    print(diff_message())
-    print(cask_diff_message())
+    messages = []
+    formulae_message = diff_message()
+    if formulae_message:
+        messages.append(
+            'Formulae\n----------\n' + formulae_message
+        )
 
+    cask_message = cask_diff_message()
+    if cask_message:
+        messages.append('Casks:\n----------\n' + cask_message)
+
+    crate_message = crate_diff_message()
+    if crate_message:
+        messages.append('Crates:\n----------\n' + crate_message)
+
+    print('\n\n'.join(messages))

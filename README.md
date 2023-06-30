@@ -16,15 +16,4 @@ My bootstrap scripts for new Mac setup quickly or sync settings, installed softw
   - [Intel One Mono](https://github.com/intel/intel-one-mono)
 
 ## Usage
-```bash
-Available recipes:
-    cask-install       # install casks interactively
-    cask-install-all   # install all casks in the list file
-    default            # generate-list is the default recipe
-    generate-cask-list # generate installed casks list json file
-    generate-list      # generate installed homebrew formulae list json file
-    install            # install formulae interactively
-    install-all        # install all formulae in the list file
-    preview            # preview changes
-    push-changes       # commit & push formulae changes
-```
+Please execute `just -l` for help.
