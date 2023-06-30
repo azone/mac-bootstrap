@@ -1,0 +1,47 @@
+[
+  {
+    "token": "flutter",
+    "full_token": "flutter",
+    "name": "Flutter SDK",
+    "homepage": "https://flutter.dev/",
+    "desc": "UI toolkit for building applications for mobile, web and desktop",
+    "caveats": null,
+    "installed": "3.10.2"
+  },
+  {
+    "token": "miniconda",
+    "full_token": "miniconda",
+    "name": "Miniconda",
+    "homepage": "https://docs.conda.io/en/latest/miniconda.html",
+    "desc": "Minimal installer for conda",
+    "caveats": "Please run the following to setup your shell:\n  conda init \"$(basename \"${SHELL}\")\"\n",
+    "installed": "py310_23.1.0-1"
+  },
+  {
+    "token": "provisionql",
+    "full_token": "provisionql",
+    "name": "ProvisionQL",
+    "homepage": "https://github.com/ealeksandrov/ProvisionQL",
+    "desc": "QuickLook plugin for mobile apps and provisioning profiles",
+    "caveats": "To prevent mobileprovision QuickLook override by Xcode:\n\n  https://github.com/ealeksandrov/ProvisionQL/issues/20\n",
+    "installed": "1.6.3"
+  },
+  {
+    "token": "quicklook-json",
+    "full_token": "quicklook-json",
+    "name": "quick look JSON",
+    "homepage": "http://www.sagtau.com/quicklookjson.html",
+    "desc": "QuickLook plugin for JSON files",
+    "caveats": null,
+    "installed": "2,1.0"
+  },
+  {
+    "token": "temurin",
+    "full_token": "temurin",
+    "name": "Eclipse Temurin Java Development Kit",
+    "homepage": "https://adoptium.net/",
+    "desc": "JDK from the Eclipse Foundation (Adoptium)",
+    "caveats": null,
+    "installed": "20.0.1,9"
+  }
+]
