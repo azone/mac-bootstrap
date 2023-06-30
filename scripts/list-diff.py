@@ -56,7 +56,10 @@ def cask_diff_message():
     if changed:
         changed_info = ['  - {}({} -> {})'.format(f, old_casks[f]['installed'], casks[f]['installed']) for f in changed]
         message.append('Updated:\n' + '\n'.join(changed_info))
-    return 'Casks:\n------\n' + '\n\n'.join(message)
+    combined_message = '\n\n'.join(message)
+    if combined_message:
+        return 'Casks:\n----------\n' + combined_message
+    return combined_message
 
 if __name__ == '__main__':
     print(diff_message())
