@@ -5,15 +5,15 @@
     "homepage": "https://aria2.github.io/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.36.0_1"
+    "linked_keg": "1.36.0_2"
   },
   {
     "name": "asdf",
     "desc": "Extendable version manager with support for Ruby, Node.js, Erlang & more",
     "homepage": "https://asdf-vm.com/",
     "tap": "homebrew/core",
-    "caveats": "To use asdf, add the following line (or equivalent) to your shell profile\ne.g. ~/.profile or ~/.zshrc:\n  . $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.sh\nRestart your terminal for the settings to take effect.\n",
-    "linked_keg": "0.11.3"
+    "caveats": "To use asdf, add the following line (or equivalent) to your shell profile\ne.g. ~/.profile or ~/.zshrc:\n  . $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.sh\ne.g. ~/.config/fish/config.fish\n  source $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.fish\nRestart your terminal for the settings to take effect.\n",
+    "linked_keg": "0.12.0"
   },
   {
     "name": "autojump",
@@ -37,7 +37,7 @@
     "homepage": "https://clementtsang.github.io/bottom/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.9.1"
+    "linked_keg": "0.9.3"
   },
   {
     "name": "broot",
@@ -45,7 +45,7 @@
     "homepage": "https://dystroy.org/broot/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.22.1"
+    "linked_keg": "1.23.0"
   },
   {
     "name": "chisel",
@@ -69,7 +69,7 @@
     "homepage": "https://deno.land/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.34.0"
+    "linked_keg": "1.34.3"
   },
   {
     "name": "diskonaut",
@@ -125,7 +125,7 @@
     "homepage": "https://github.com/solidiquis/erdtree",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "3.0.0"
+    "linked_keg": "3.0.2"
   },
   {
     "name": "exa",
@@ -165,7 +165,7 @@
     "homepage": "https://github.com/junegunn/fzf",
     "tap": "homebrew/core",
     "caveats": "To install useful keybindings and fuzzy completion:\n  $HOMEBREW_PREFIX/opt/fzf/install\n\nTo use fzf in Vim, add the following line to your .vimrc:\n  set rtp+=$HOMEBREW_PREFIX/opt/fzf\n",
-    "linked_keg": "0.41.0"
+    "linked_keg": "0.42.0"
   },
   {
     "name": "geos",
@@ -173,7 +173,7 @@
     "homepage": "https://libgeos.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "3.11.2"
+    "linked_keg": "3.12.0"
   },
   {
     "name": "gh",
@@ -181,7 +181,7 @@
     "homepage": "https://github.com/cli/cli",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2.29.0"
+    "linked_keg": "2.31.0"
   },
   {
     "name": "git-delta",
@@ -189,7 +189,7 @@
     "homepage": "https://github.com/dandavison/delta",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.15.1"
+    "linked_keg": "0.16.5"
   },
   {
     "name": "gping",
@@ -245,7 +245,7 @@
     "homepage": "https://github.com/sharkdp/hyperfine",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.16.1"
+    "linked_keg": "1.17.0"
   },
   {
     "name": "imagemagick",
@@ -253,7 +253,7 @@
     "homepage": "https://imagemagick.org/index.php",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "7.1.1-10"
+    "linked_keg": "7.1.1-12"
   },
   {
     "name": "jinja2-cli",
@@ -277,7 +277,7 @@
     "homepage": "https://github.com/casey/just",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.13.0"
+    "linked_keg": "1.14.0"
   },
   {
     "name": "libffi",
@@ -317,7 +317,7 @@
     "homepage": "https://neovim.io/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.9.0"
+    "linked_keg": "0.9.1"
   },
   {
     "name": "node",
@@ -325,7 +325,7 @@
     "homepage": "https://nodejs.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "20.2.0"
+    "linked_keg": "20.3.1_1"
   },
   {
     "name": "nushell",
@@ -333,7 +333,7 @@
     "homepage": "https://www.nushell.sh",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.80.0"
+    "linked_keg": "0.82.0"
   },
   {
     "name": "p7zip",
@@ -349,7 +349,7 @@
     "homepage": "https://pandoc.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "3.1.2"
+    "linked_keg": "3.1.4"
   },
   {
     "name": "pgcli",
@@ -358,6 +358,14 @@
     "tap": "homebrew/core",
     "caveats": null,
     "linked_keg": "3.5.0_1"
+  },
+  {
+    "name": "pngquant",
+    "desc": "PNG image optimizing utility",
+    "homepage": "https://pngquant.org/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "2.18.0"
   },
   {
     "name": "postgresql@15",
@@ -373,7 +381,7 @@
     "homepage": "https://github.com/okbob/pspg",
     "tap": "homebrew/core",
     "caveats": "Add the following line to your psql profile (e.g. ~/.psqlrc)\n  \\setenv PAGER pspg\n  \\pset border 2\n  \\pset linestyle unicode\n",
-    "linked_keg": "5.7.6"
+    "linked_keg": "5.7.8"
   },
   {
     "name": "rargs",
@@ -397,7 +405,7 @@
     "homepage": "https://github.com/jdxcode/rtx",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.30.4"
+    "linked_keg": "1.32.1"
   },
   {
     "name": "sd",
@@ -413,7 +421,15 @@
     "homepage": "https://starship.rs",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.14.2"
+    "linked_keg": "1.15.0"
+  },
+  {
+    "name": "swiftlint",
+    "desc": "Tool to enforce Swift style and conventions",
+    "homepage": "https://github.com/realm/SwiftLint",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.52.3"
   },
   {
     "name": "taskwarrior-tui",
@@ -421,7 +437,7 @@
     "homepage": "https://github.com/kdheepak/taskwarrior-tui",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.23.7"
+    "linked_keg": "0.24.2"
   },
   {
     "name": "tealdeer",
@@ -445,7 +461,15 @@
     "homepage": "https://github.com/typst/typst",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.4.0"
+    "linked_keg": "0.5.0"
+  },
+  {
+    "name": "watch",
+    "desc": "Executes a program periodically, showing output fullscreen",
+    "homepage": "https://gitlab.com/procps-ng/procps",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "4.0.3"
   },
   {
     "name": "xh",
