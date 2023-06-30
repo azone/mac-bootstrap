@@ -1,5 +1,6 @@
 list_file := "formulae-list.json"
 
+# generate-list is the default recipe
 default: generate-list
 
 # generate installed homebrew formulae list json file
@@ -7,11 +8,11 @@ default: generate-list
     brew leaves | xargs brew info --json | \
     jq '[.[]|{"name", "desc", "homepage", "tap", "caveats", "linked_keg"}]' > {{list_file}}
 
-# install formulae in the list file
+# install all formulae in the list file
 @install-all:
     jq '.[]|.["name"]' {{list_file}} | xargs brew install
 
-# install interactively
+# install formulae interactively
 install:
     #!/usr/bin/env bash
     comm -13i <(brew leaves) <(jq -r '.[]."name"' {{list_file}}) | \
