@@ -36,7 +36,7 @@ push-changes:
     fi
 
     DS=$(date +'%Y-%m-%d %H:%M:%S')
-    HEADLINE="Formulae updated ($DS)"
+    HEADLINE="Updates ($DS)"
     COMMIT_MSG=$(cat << EOF
     $HEADLINE
 
