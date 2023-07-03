@@ -73,3 +73,7 @@ push-changes:
 @crate-install:
     cat installed-crates-bins.txt | fzf -m --bind 'alt-a:select-all,alt-d:deselect-all' | \
     cut -d ' ' -f1 | xargs cargo install
+
+# upgrade all installed crate binaries
+@crate-upgrade-all:
+    cargo install --list | grep -E '^\w' | cut -d ' ' -f1 | xargs cargo install
