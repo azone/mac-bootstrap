@@ -5,7 +5,7 @@ cargo-show-asm v0.2.18
 irust v1.70.0
 mdbook v0.4.31
 mdbook-epub v0.4.27
-sccache v0.5.3
+sccache v0.5.4
 termusic v0.7.10
 xcp v0.10.0
 zellij v0.37.2
