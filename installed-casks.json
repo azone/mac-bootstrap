@@ -42,6 +42,6 @@
     "homepage": "https://adoptium.net/",
     "desc": "JDK from the Eclipse Foundation (Adoptium)",
     "caveats": null,
-    "installed": "20.0.1,9"
+    "installed": "20.0.2,9"
   }
 ]

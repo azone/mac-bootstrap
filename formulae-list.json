@@ -45,7 +45,7 @@
     "homepage": "https://dystroy.org/broot/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.23.0"
+    "linked_keg": "1.24.2"
   },
   {
     "name": "chisel",
@@ -69,7 +69,7 @@
     "homepage": "https://deno.land/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.35.0"
+    "linked_keg": "1.35.2"
   },
   {
     "name": "diskonaut",
@@ -181,7 +181,7 @@
     "homepage": "https://github.com/cli/cli",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2.31.0"
+    "linked_keg": "2.32.0"
   },
   {
     "name": "git-delta",
@@ -197,7 +197,7 @@
     "homepage": "https://github.com/orf/gping",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.12.0"
+    "linked_keg": "1.13.1"
   },
   {
     "name": "graphviz",
@@ -205,7 +205,7 @@
     "homepage": "https://graphviz.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "8.0.5"
+    "linked_keg": "8.1.0"
   },
   {
     "name": "helix",
@@ -253,7 +253,7 @@
     "homepage": "https://imagemagick.org/index.php",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "7.1.1-12"
+    "linked_keg": "7.1.1-14"
   },
   {
     "name": "jinja2-cli",
@@ -325,7 +325,7 @@
     "homepage": "https://nodejs.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "20.4.0"
+    "linked_keg": "20.5.0"
   },
   {
     "name": "nushell",
@@ -349,7 +349,7 @@
     "homepage": "https://pandoc.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "3.1.4"
+    "linked_keg": "3.1.6"
   },
   {
     "name": "pgcli",
@@ -405,7 +405,7 @@
     "homepage": "https://github.com/jdxcode/rtx",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.32.2"
+    "linked_keg": "1.34.1"
   },
   {
     "name": "sd",
@@ -494,6 +494,14 @@
     "tap": "homebrew/core",
     "caveats": "To use post-processing options, run `brew install ffmpeg` or `brew install libav`.",
     "linked_keg": "0.4.1650"
+  },
+  {
+    "name": "zig",
+    "desc": "Programming language designed for robustness, optimality, and clarity",
+    "homepage": "https://ziglang.org/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.10.1"
   },
   {
     "name": "zoxide",
