@@ -1,3 +1,5 @@
+set shell := ["fish", "-c"]
+
 list_file := "formulae-list.json"
 
 # generate all lists
@@ -17,32 +19,30 @@ list_file := "formulae-list.json"
 
 # install formulae interactively
 install:
-    #!/usr/bin/env bash
-    comm -13i <(brew leaves) <(jq -r '.[]."name"' {{list_file}}) | \
+    comm -13i (brew leaves | psub) (jq -r '.[]."name"' {{list_file}} | psub) | \
     fzf -m --bind 'alt-a:select-all,alt-d:deselect-all' | \
     xargs brew install
 
 # preview changes
 @preview:
-    MSG=$(./scripts/list-diff.py); test -z "$MSG" && echo "Nothing changes" || echo "$MSG"
+    set -e IFS; set MSG (./scripts/list-diff.py); test -z "$MSG" && echo "Nothing changes" || echo "$MSG"
 
 # commit & push formulae changes
 push-changes:
-    #!/usr/bin/env bash
-    MSG=$(./scripts/list-diff.py)
-    if [[ -z $MSG ]]; then
+    #!/usr/bin/env fish
+    set -e IFS
+    set MSG (./scripts/list-diff.py)
+    if test -z $MSG
         echo "Nothing to commit"
         exit 0
-    fi
+    end
 
-    DS=$(date +'%Y-%m-%d %H:%M:%S')
-    HEADLINE="Updates ($DS)"
-    COMMIT_MSG=$(cat << EOF
-    $HEADLINE
+    set DS (date +'%Y-%m-%d %H:%M:%S')
+    set HEADLINE "Updates ($DS)"
+    set COMMIT_MSG """$HEADLINE
 
     $MSG
-    EOF
-    )
+    """
     git commit -am "$COMMIT_MSG"
     git push
 
