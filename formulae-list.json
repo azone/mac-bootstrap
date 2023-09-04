@@ -37,7 +37,7 @@
     "homepage": "https://clementtsang.github.io/bottom/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.9.4"
+    "linked_keg": "0.9.6"
   },
   {
     "name": "broot",
@@ -45,7 +45,7 @@
     "homepage": "https://dystroy.org/broot/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.24.2"
+    "linked_keg": "1.25.1"
   },
   {
     "name": "chisel",
@@ -69,7 +69,7 @@
     "homepage": "https://deno.land/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.36.0"
+    "linked_keg": "1.36.4"
   },
   {
     "name": "diskonaut",
@@ -133,7 +133,7 @@
     "homepage": "https://the.exa.website",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.10.1_1"
+    "linked_keg": "0.10.1_2"
   },
   {
     "name": "fd",
@@ -149,7 +149,7 @@
     "homepage": "https://ffmpeg.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "6.0"
+    "linked_keg": "6.0_1"
   },
   {
     "name": "fish",
@@ -181,7 +181,7 @@
     "homepage": "https://github.com/cli/cli",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2.32.1"
+    "linked_keg": "2.33.0"
   },
   {
     "name": "git-delta",
@@ -197,7 +197,7 @@
     "homepage": "https://github.com/orf/gping",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.14.0"
+    "linked_keg": "1.14.0_1"
   },
   {
     "name": "graphviz",
@@ -261,7 +261,7 @@
     "homepage": "https://imagemagick.org/index.php",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "7.1.1-15"
+    "linked_keg": "7.1.1-15_1"
   },
   {
     "name": "jinja2-cli",
@@ -294,6 +294,14 @@
     "tap": "homebrew/core",
     "caveats": null,
     "linked_keg": null
+  },
+  {
+    "name": "lua",
+    "desc": "Powerful, lightweight programming language",
+    "homepage": "https://www.lua.org/",
+    "tap": "homebrew/core",
+    "caveats": "You may also want luarocks:\n  brew install luarocks\n",
+    "linked_keg": "5.4.6"
   },
   {
     "name": "luajit-openresty",
@@ -333,7 +341,7 @@
     "homepage": "https://nodejs.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "20.5.0"
+    "linked_keg": "20.5.1"
   },
   {
     "name": "nushell",
@@ -341,7 +349,7 @@
     "homepage": "https://www.nushell.sh",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.83.1"
+    "linked_keg": "0.84.0"
   },
   {
     "name": "p7zip",
@@ -357,7 +365,15 @@
     "homepage": "https://pandoc.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "3.1.6"
+    "linked_keg": "3.1.7"
+  },
+  {
+    "name": "pcre",
+    "desc": "Perl compatible regular expressions library",
+    "homepage": "https://www.pcre.org/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "8.45"
   },
   {
     "name": "pgcli",
@@ -410,10 +426,10 @@
   {
     "name": "rtx",
     "desc": "Polyglot runtime manager (asdf rust clone)",
-    "homepage": "https://github.com/jdxcode/rtx",
+    "homepage": "https://github.com/jdx/rtx",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.35.8"
+    "linked_keg": "2023.8.10"
   },
   {
     "name": "sd",
@@ -453,7 +469,7 @@
     "homepage": "https://github.com/kdheepak/taskwarrior-tui",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.25.1"
+    "linked_keg": "0.25.4"
   },
   {
     "name": "tealdeer",
@@ -477,7 +493,7 @@
     "homepage": "https://github.com/typst/typst",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.6.0"
+    "linked_keg": "0.7.0"
   },
   {
     "name": "watch",
@@ -485,7 +501,7 @@
     "homepage": "https://gitlab.com/procps-ng/procps",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "4.0.3"
+    "linked_keg": "4.0.4"
   },
   {
     "name": "xh",
@@ -501,7 +517,7 @@
     "homepage": "https://github.com/sayanarijit/xplr",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.21.2"
+    "linked_keg": "0.21.3"
   },
   {
     "name": "you-get",
@@ -510,6 +526,14 @@
     "tap": "homebrew/core",
     "caveats": "To use post-processing options, run `brew install ffmpeg` or `brew install libav`.",
     "linked_keg": "0.4.1650"
+  },
+  {
+    "name": "youtube-dl",
+    "desc": "Download YouTube videos from the command-line",
+    "homepage": "https://youtube-dl.org/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "2021.12.17"
   },
   {
     "name": "zig",

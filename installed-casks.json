@@ -14,8 +14,17 @@
     "name": "Miniconda",
     "homepage": "https://docs.conda.io/en/latest/miniconda.html",
     "desc": "Minimal installer for conda",
-    "caveats": "Please run the following to setup your shell:\n  conda init \"$(basename \"${SHELL}\")\"\n",
+    "caveats": "Please run the following to setup your shell:\n  conda init \"$(basename \"${SHELL}\")\"\n\nAlternatively, manually add the following to your shell init:\n  eval \"$(conda \"shell.$(basename \"${SHELL}\")\" hook)\"\n",
     "installed": "py310_23.1.0-1"
+  },
+  {
+    "token": "periphery",
+    "full_token": "peripheryapp/periphery/periphery",
+    "name": "Periphery",
+    "homepage": "https://github.com/peripheryapp/periphery",
+    "desc": null,
+    "caveats": null,
+    "installed": "2.15.0"
   },
   {
     "token": "provisionql",
