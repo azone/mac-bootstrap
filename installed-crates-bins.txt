@@ -1,8 +1,8 @@
 biodiff v1.1.0
-cargo-expand v1.0.67
+cargo-expand v1.0.72
 cargo-info v0.7.6
 cargo-show-asm v0.2.21
-irust v1.71.1
+irust v1.71.3
 mdbook v0.4.34
 mdbook-epub v0.4.31
 sccache v0.5.4
