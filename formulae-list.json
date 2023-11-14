@@ -45,7 +45,7 @@
     "homepage": "https://dystroy.org/broot/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.26.1"
+    "linked_keg": "1.28.1"
   },
   {
     "name": "chisel",
@@ -165,7 +165,7 @@
     "homepage": "https://github.com/junegunn/fzf",
     "tap": "homebrew/core",
     "caveats": "To install useful keybindings and fuzzy completion:\n  $HOMEBREW_PREFIX/opt/fzf/install\n\nTo use fzf in Vim, add the following line to your .vimrc:\n  set rtp+=$HOMEBREW_PREFIX/opt/fzf\n",
-    "linked_keg": "0.43.0"
+    "linked_keg": "0.44.0"
   },
   {
     "name": "geos",
@@ -173,7 +173,7 @@
     "homepage": "https://libgeos.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "3.12.0"
+    "linked_keg": "3.12.1"
   },
   {
     "name": "gh",
@@ -181,7 +181,7 @@
     "homepage": "https://github.com/cli/cli",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2.37.0"
+    "linked_keg": "2.38.0"
   },
   {
     "name": "git-delta",
@@ -197,7 +197,7 @@
     "homepage": "https://github.com/orf/gping",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.14.0_1"
+    "linked_keg": "1.15.1"
   },
   {
     "name": "graphviz",
@@ -221,7 +221,7 @@
     "homepage": "https://helix-editor.com",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "23.05_1"
+    "linked_keg": "23.10"
   },
   {
     "name": "hexyl",
@@ -285,12 +285,20 @@
     "homepage": "https://github.com/casey/just",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.15.0"
+    "linked_keg": "1.16.0"
   },
   {
     "name": "libffi",
     "desc": "Portable Foreign Function Interface library",
     "homepage": "https://sourceware.org/libffi/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": null
+  },
+  {
+    "name": "libgit2@1.6",
+    "desc": "C library of Git core methods that is re-entrant and linkable",
+    "homepage": "https://libgit2.github.com/",
     "tap": "homebrew/core",
     "caveats": null,
     "linked_keg": null
@@ -349,7 +357,7 @@
     "homepage": "https://nodejs.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "21.0.0"
+    "linked_keg": "21.1.0"
   },
   {
     "name": "nushell",
@@ -373,7 +381,7 @@
     "homepage": "https://pandoc.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "3.1.8"
+    "linked_keg": "3.1.9"
   },
   {
     "name": "pcre",
@@ -389,7 +397,7 @@
     "homepage": "https://pgcli.com/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "3.5.0_1"
+    "linked_keg": "4.0.1"
   },
   {
     "name": "pngquant",
@@ -405,7 +413,7 @@
     "homepage": "https://pnpm.io/",
     "tap": "homebrew/core",
     "caveats": "pnpm requires a Node installation to function. You can install one with:\n  brew install node\n",
-    "linked_keg": "8.9.2"
+    "linked_keg": "8.10.4"
   },
   {
     "name": "postgresql@16",
@@ -445,7 +453,7 @@
     "homepage": "https://github.com/jdx/rtx",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2023.10.2"
+    "linked_keg": "2023.11.2"
   },
   {
     "name": "sd",
@@ -453,7 +461,7 @@
     "homepage": "https://github.com/chmln/sd",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.7.6_1"
+    "linked_keg": "1.0.0"
   },
   {
     "name": "starship",
@@ -501,7 +509,7 @@
     "homepage": "https://tmux.github.io/",
     "tap": "homebrew/core",
     "caveats": "Example configuration has been installed to:\n  $HOMEBREW_PREFIX/opt/tmux/share/tmux\n",
-    "linked_keg": "3.3a_2"
+    "linked_keg": "3.3a_3"
   },
   {
     "name": "typst",
@@ -509,7 +517,7 @@
     "homepage": "https://github.com/typst/typst",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.8.0"
+    "linked_keg": "0.9.0"
   },
   {
     "name": "watch",
@@ -537,7 +545,7 @@
   },
   {
     "name": "yazi",
-    "desc": "️Blazing fast terminal file manager written in Rust, based on async I/O",
+    "desc": "Blazing fast terminal file manager written in Rust, based on async I/O",
     "homepage": "https://github.com/sxyazi/yazi",
     "tap": "homebrew/core",
     "caveats": null,
