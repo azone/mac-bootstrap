@@ -5,7 +5,7 @@
     "homepage": "https://aria2.github.io/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.36.0_2"
+    "linked_keg": "1.37.0"
   },
   {
     "name": "asdf",
@@ -45,7 +45,7 @@
     "homepage": "https://dystroy.org/broot/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.28.1"
+    "linked_keg": "1.29.0"
   },
   {
     "name": "chisel",
@@ -69,7 +69,7 @@
     "homepage": "https://deno.land/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.37.2"
+    "linked_keg": "1.38.3"
   },
   {
     "name": "diskonaut",
@@ -101,7 +101,7 @@
     "homepage": "https://lib.rs/crates/dua-cli",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2.20.1"
+    "linked_keg": "2.20.3"
   },
   {
     "name": "elm",
@@ -165,7 +165,7 @@
     "homepage": "https://github.com/junegunn/fzf",
     "tap": "homebrew/core",
     "caveats": "To install useful keybindings and fuzzy completion:\n  $HOMEBREW_PREFIX/opt/fzf/install\n\nTo use fzf in Vim, add the following line to your .vimrc:\n  set rtp+=$HOMEBREW_PREFIX/opt/fzf\n",
-    "linked_keg": "0.44.0"
+    "linked_keg": "0.44.1"
   },
   {
     "name": "geos",
@@ -178,10 +178,10 @@
   {
     "name": "gh",
     "desc": "GitHub command-line tool",
-    "homepage": "https://github.com/cli/cli",
+    "homepage": "https://cli.github.com/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2.38.0"
+    "linked_keg": "2.39.1"
   },
   {
     "name": "git-delta",
@@ -330,7 +330,7 @@
   {
     "name": "mysql-client",
     "desc": "Open source relational database management system",
-    "homepage": "https://dev.mysql.com/doc/refman/8.0/en/",
+    "homepage": "https://dev.mysql.com/doc/refman/8.2/en/",
     "tap": "homebrew/core",
     "caveats": null,
     "linked_keg": null
@@ -352,12 +352,20 @@
     "linked_keg": "0.9.4"
   },
   {
+    "name": "nginx",
+    "desc": "HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server",
+    "homepage": "https://nginx.org/",
+    "tap": "homebrew/core",
+    "caveats": "Docroot is: $HOMEBREW_PREFIX/var/www\n\nThe default port has been set in $HOMEBREW_PREFIX/etc/nginx/nginx.conf to 8080 so that\nnginx can run without sudo.\n\nnginx will load all files in $HOMEBREW_PREFIX/etc/nginx/servers/.\n",
+    "linked_keg": "1.25.3"
+  },
+  {
     "name": "node",
     "desc": "Platform built on V8 to build network applications",
     "homepage": "https://nodejs.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "21.1.0"
+    "linked_keg": "21.2.0"
   },
   {
     "name": "nushell",
@@ -365,7 +373,7 @@
     "homepage": "https://www.nushell.sh",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.86.0"
+    "linked_keg": "0.87.1"
   },
   {
     "name": "p7zip",
@@ -413,7 +421,7 @@
     "homepage": "https://pnpm.io/",
     "tap": "homebrew/core",
     "caveats": "pnpm requires a Node installation to function. You can install one with:\n  brew install node\n",
-    "linked_keg": "8.10.4"
+    "linked_keg": "8.11.0"
   },
   {
     "name": "postgresql@16",
@@ -429,7 +437,7 @@
     "homepage": "https://github.com/okbob/pspg",
     "tap": "homebrew/core",
     "caveats": "Add the following line to your psql profile (e.g. ~/.psqlrc)\n  \\setenv PAGER pspg\n  \\pset border 2\n  \\pset linestyle unicode\n",
-    "linked_keg": "5.8.0"
+    "linked_keg": "5.8.1"
   },
   {
     "name": "rargs",
@@ -445,7 +453,7 @@
     "homepage": "https://github.com/BurntSushi/ripgrep",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "13.0.0"
+    "linked_keg": "14.0.1"
   },
   {
     "name": "rtx",
@@ -453,7 +461,7 @@
     "homepage": "https://github.com/jdx/rtx",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2023.11.2"
+    "linked_keg": "2023.11.6"
   },
   {
     "name": "sd",
@@ -478,6 +486,14 @@
     "tap": "homebrew/core",
     "caveats": null,
     "linked_keg": "4.2.5"
+  },
+  {
+    "name": "surreal",
+    "desc": "A scalable, distributed, collaborative, document-graph database",
+    "homepage": "https://surrealdb.com",
+    "tap": "surrealdb/tap",
+    "caveats": "For local development only, this formula ships a launchd config\nto start a single-node cluster that stores its data under:\n  $HOMEBREW_PREFIX/var/\nThe database is available on the default port of 8000:\n  http://localhost:8000\n",
+    "linked_keg": "1.0.0"
   },
   {
     "name": "swiftlint",
@@ -533,7 +549,7 @@
     "homepage": "https://github.com/ducaale/xh",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.19.4"
+    "linked_keg": "0.20.1"
   },
   {
     "name": "xplr",
