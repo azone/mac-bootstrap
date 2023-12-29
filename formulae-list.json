@@ -8,20 +8,20 @@
     "linked_keg": "1.37.0"
   },
   {
-    "name": "asdf",
-    "desc": "Extendable version manager with support for Ruby, Node.js, Erlang & more",
-    "homepage": "https://asdf-vm.com/",
-    "tap": "homebrew/core",
-    "caveats": "To use asdf, add the following line (or equivalent) to your shell profile\ne.g. ~/.profile or ~/.zshrc:\n  . $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.sh\ne.g. ~/.config/fish/config.fish\n  source $HOMEBREW_PREFIX/opt/asdf/libexec/asdf.fish\nRestart your terminal for the settings to take effect.\n",
-    "linked_keg": "0.13.1"
-  },
-  {
     "name": "autojump",
     "desc": "Shell extension to jump to frequently used directories",
     "homepage": "https://github.com/wting/autojump",
     "tap": "homebrew/core",
     "caveats": "Add the following line to your ~/.bash_profile or ~/.zshrc file:\n  [ -f $HOMEBREW_PREFIX/etc/profile.d/autojump.sh ] && . $HOMEBREW_PREFIX/etc/profile.d/autojump.sh\n\nIf you use the Fish shell then add the following line to your ~/.config/fish/config.fish:\n  [ -f $HOMEBREW_PREFIX/share/autojump/autojump.fish ]; and source $HOMEBREW_PREFIX/share/autojump/autojump.fish\n\nRestart your terminal for the settings to take effect.\n",
     "linked_keg": "22.5.3_3"
+  },
+  {
+    "name": "automake",
+    "desc": "Tool for generating GNU Standards-compliant Makefiles",
+    "homepage": "https://www.gnu.org/software/automake/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "1.16.5"
   },
   {
     "name": "bat",
@@ -45,7 +45,7 @@
     "homepage": "https://dystroy.org/broot/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.29.0"
+    "linked_keg": "1.30.2"
   },
   {
     "name": "chisel",
@@ -54,6 +54,14 @@
     "tap": "homebrew/core",
     "caveats": "Add the following line to ~/.lldbinit to load chisel when Xcode launches:\n  command script import $HOMEBREW_PREFIX/opt/chisel/libexec/fbchisellldb.py\n",
     "linked_keg": "2.0.1"
+  },
+  {
+    "name": "coreutils",
+    "desc": "GNU File, Shell, and Text utilities",
+    "homepage": "https://www.gnu.org/software/coreutils",
+    "tap": "homebrew/core",
+    "caveats": "Commands also provided by macOS and the commands dir, dircolors, vdir have been installed with the prefix \"g\".\nIf you need to use these commands with their normal names, you can add a \"gnubin\" directory to your PATH with:\n  PATH=\"$HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin:$PATH\"\n",
+    "linked_keg": "9.4"
   },
   {
     "name": "csview",
@@ -69,7 +77,7 @@
     "homepage": "https://deno.land/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.38.3"
+    "linked_keg": "1.39.1"
   },
   {
     "name": "diskonaut",
@@ -101,7 +109,7 @@
     "homepage": "https://lib.rs/crates/dua-cli",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2.20.3"
+    "linked_keg": "2.24.2"
   },
   {
     "name": "elm",
@@ -141,7 +149,7 @@
     "homepage": "https://github.com/sharkdp/fd",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "8.7.1"
+    "linked_keg": "9.0.0"
   },
   {
     "name": "ffmpeg",
@@ -149,7 +157,7 @@
     "homepage": "https://ffmpeg.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "6.0_1"
+    "linked_keg": "6.1"
   },
   {
     "name": "fish",
@@ -157,7 +165,7 @@
     "homepage": "https://fishshell.com",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "3.6.1"
+    "linked_keg": "3.6.4"
   },
   {
     "name": "fzf",
@@ -181,7 +189,7 @@
     "homepage": "https://cli.github.com/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2.39.1"
+    "linked_keg": "2.40.1"
   },
   {
     "name": "git-delta",
@@ -197,7 +205,7 @@
     "homepage": "https://github.com/orf/gping",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.15.1"
+    "linked_keg": "1.16.0"
   },
   {
     "name": "graphviz",
@@ -229,7 +237,7 @@
     "homepage": "https://github.com/sharkdp/hexyl",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.13.1"
+    "linked_keg": "0.14.0"
   },
   {
     "name": "htmlq",
@@ -261,7 +269,7 @@
     "homepage": "https://imagemagick.org/index.php",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "7.1.1-21"
+    "linked_keg": "7.1.1-24"
   },
   {
     "name": "jinja2-cli",
@@ -277,7 +285,7 @@
     "homepage": "https://jqlang.github.io/jq/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.7"
+    "linked_keg": "1.7.1"
   },
   {
     "name": "just",
@@ -285,7 +293,7 @@
     "homepage": "https://github.com/casey/just",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.16.0"
+    "linked_keg": "1.20.0"
   },
   {
     "name": "libffi",
@@ -365,7 +373,7 @@
     "homepage": "https://nodejs.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "21.2.0"
+    "linked_keg": "21.5.0"
   },
   {
     "name": "nushell",
@@ -373,7 +381,7 @@
     "homepage": "https://www.nushell.sh",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.87.1"
+    "linked_keg": "0.88.1"
   },
   {
     "name": "p7zip",
@@ -389,7 +397,7 @@
     "homepage": "https://pandoc.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "3.1.9"
+    "linked_keg": "3.1.11"
   },
   {
     "name": "pcre",
@@ -413,7 +421,7 @@
     "homepage": "https://pngquant.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2.18.0"
+    "linked_keg": "3.0.3"
   },
   {
     "name": "pnpm",
@@ -421,7 +429,7 @@
     "homepage": "https://pnpm.io/",
     "tap": "homebrew/core",
     "caveats": "pnpm requires a Node installation to function. You can install one with:\n  brew install node\n",
-    "linked_keg": "8.11.0"
+    "linked_keg": "8.13.1"
   },
   {
     "name": "postgresql@16",
@@ -453,15 +461,15 @@
     "homepage": "https://github.com/BurntSushi/ripgrep",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "14.0.1"
+    "linked_keg": "14.0.3"
   },
   {
     "name": "rtx",
     "desc": "Polyglot runtime manager (asdf rust clone)",
     "homepage": "https://github.com/jdx/rtx",
     "tap": "homebrew/core",
-    "caveats": null,
-    "linked_keg": "2023.11.6"
+    "caveats": "If you are using fish shell, rtx will be activated for you automatically.\n",
+    "linked_keg": "2023.12.40"
   },
   {
     "name": "sd",
@@ -477,7 +485,7 @@
     "homepage": "https://starship.rs",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.16.0"
+    "linked_keg": "1.17.0"
   },
   {
     "name": "supervisor",
@@ -533,7 +541,15 @@
     "homepage": "https://github.com/typst/typst",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.9.0"
+    "linked_keg": "0.10.0"
+  },
+  {
+    "name": "unixodbc",
+    "desc": "ODBC 3 connectivity for UNIX",
+    "homepage": "https://www.unixodbc.org/",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "2.3.12"
   },
   {
     "name": "watch",
@@ -580,7 +596,7 @@
     "desc": "Download YouTube videos from the command-line",
     "homepage": "https://ytdl-org.github.io/youtube-dl/",
     "tap": "homebrew/core",
-    "caveats": null,
+    "caveats": "The current youtube-dl version has many unresolved issues.\nUpstream have not tagged a new release since 2021.\n\nPlease use yt-dlp instead.\n",
     "linked_keg": "2021.12.17"
   },
   {
