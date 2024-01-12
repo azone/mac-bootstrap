@@ -77,7 +77,7 @@
     "homepage": "https://deno.land/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.39.1"
+    "linked_keg": "1.39.2"
   },
   {
     "name": "diskonaut",
@@ -109,7 +109,7 @@
     "homepage": "https://lib.rs/crates/dua-cli",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2.25.0"
+    "linked_keg": "2.26.0"
   },
   {
     "name": "elm",
@@ -141,7 +141,7 @@
     "homepage": "https://github.com/eza-community/eza",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.17.0"
+    "linked_keg": "0.17.1"
   },
   {
     "name": "fd",
@@ -189,7 +189,7 @@
     "homepage": "https://cli.github.com/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2.40.1"
+    "linked_keg": "2.42.0"
   },
   {
     "name": "git-delta",
@@ -269,7 +269,7 @@
     "homepage": "https://imagemagick.org/index.php",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "7.1.1-25"
+    "linked_keg": "7.1.1-26"
   },
   {
     "name": "jinja2-cli",
@@ -293,7 +293,7 @@
     "homepage": "https://github.com/casey/just",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.21.0"
+    "linked_keg": "1.22.1"
   },
   {
     "name": "libffi",
@@ -341,7 +341,7 @@
     "homepage": "https://github.com/jdx/mise",
     "tap": "homebrew/core",
     "caveats": "If you are using fish shell, mise will be activated for you automatically.\n",
-    "linked_keg": "2024.1.4"
+    "linked_keg": "2024.1.16"
   },
   {
     "name": "mysql-client",
@@ -365,7 +365,7 @@
     "homepage": "https://neovim.io/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.9.4"
+    "linked_keg": "0.9.5"
   },
   {
     "name": "nginx",
@@ -389,7 +389,7 @@
     "homepage": "https://www.nushell.sh",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.88.1"
+    "linked_keg": "0.89.0"
   },
   {
     "name": "p7zip",
@@ -405,7 +405,7 @@
     "homepage": "https://pandoc.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "3.1.11"
+    "linked_keg": "3.1.11.1"
   },
   {
     "name": "pcre",
@@ -437,15 +437,15 @@
     "homepage": "https://pnpm.io/",
     "tap": "homebrew/core",
     "caveats": "pnpm requires a Node installation to function. You can install one with:\n  brew install node\n",
-    "linked_keg": "8.14.0"
+    "linked_keg": "8.14.1"
   },
   {
     "name": "postgresql@16",
     "desc": "Object-relational database system",
     "homepage": "https://www.postgresql.org/",
     "tap": "homebrew/core",
-    "caveats": "This formula has created a default database cluster with:\n  initdb --locale=C -E UTF-8 $HOMEBREW_PREFIX/var/postgresql@16\nFor more details, read:\n  https://www.postgresql.org/docs/16/app-initdb.html\n",
-    "linked_keg": null
+    "caveats": "This formula has created a default database cluster with:\n  initdb-16 --locale=C -E UTF-8 $HOMEBREW_PREFIX/var/postgresql@16\nFor more details, read:\n  https://www.postgresql.org/docs/16/app-initdb.html\n\nCommands have been installed with the suffix \"-16\".\nTo use these commands with their normal names, you can modify your PATH:\n  PATH=\"$HOMEBREW_PREFIX/opt/postgresql@16/libexec/bin:$PATH\"\n",
+    "linked_keg": "16.1_2"
   },
   {
     "name": "pspg",
@@ -469,7 +469,7 @@
     "homepage": "https://github.com/BurntSushi/ripgrep",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "14.0.3"
+    "linked_keg": "14.1.0"
   },
   {
     "name": "sd",
