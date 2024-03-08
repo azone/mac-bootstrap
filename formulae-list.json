@@ -45,7 +45,7 @@
     "homepage": "https://dystroy.org/broot/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.32.0"
+    "linked_keg": "1.35.0"
   },
   {
     "name": "chisel",
@@ -69,15 +69,15 @@
     "homepage": "https://github.com/wfxr/csview",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.2.2"
+    "linked_keg": "1.2.4"
   },
   {
     "name": "deno",
     "desc": "Secure runtime for JavaScript and TypeScript",
-    "homepage": "https://deno.land/",
+    "homepage": "https://deno.com/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.39.2"
+    "linked_keg": "1.41.1"
   },
   {
     "name": "diskonaut",
@@ -109,7 +109,15 @@
     "homepage": "https://lib.rs/crates/dua-cli",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2.26.0"
+    "linked_keg": "2.28.0"
+  },
+  {
+    "name": "duckdb",
+    "desc": "Embeddable SQL OLAP Database Management System",
+    "homepage": "https://www.duckdb.org",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "0.10.0"
   },
   {
     "name": "elm",
@@ -125,7 +133,7 @@
     "homepage": "https://www.gnu.org/software/emacs/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "29.1_1"
+    "linked_keg": "29.2"
   },
   {
     "name": "erdtree",
@@ -141,7 +149,7 @@
     "homepage": "https://github.com/eza-community/eza",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.17.1"
+    "linked_keg": "0.18.6"
   },
   {
     "name": "fd",
@@ -157,7 +165,7 @@
     "homepage": "https://ffmpeg.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "6.1.1_2"
+    "linked_keg": "6.1.1_4"
   },
   {
     "name": "fish",
@@ -173,7 +181,7 @@
     "homepage": "https://github.com/junegunn/fzf",
     "tap": "homebrew/core",
     "caveats": "To install useful keybindings and fuzzy completion:\n  $HOMEBREW_PREFIX/opt/fzf/install\n\nTo use fzf in Vim, add the following line to your .vimrc:\n  set rtp+=$HOMEBREW_PREFIX/opt/fzf\n",
-    "linked_keg": "0.45.0"
+    "linked_keg": "0.46.1"
   },
   {
     "name": "geos",
@@ -189,7 +197,7 @@
     "homepage": "https://cli.github.com/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "2.42.0"
+    "linked_keg": "2.45.0"
   },
   {
     "name": "git-delta",
@@ -205,7 +213,7 @@
     "homepage": "https://github.com/orf/gping",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.16.0"
+    "linked_keg": "1.16.1"
   },
   {
     "name": "graphviz",
@@ -213,7 +221,7 @@
     "homepage": "https://graphviz.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "9.0.0"
+    "linked_keg": "10.0.1"
   },
   {
     "name": "guile",
@@ -221,7 +229,7 @@
     "homepage": "https://www.gnu.org/software/guile/",
     "tap": "homebrew/core",
     "caveats": "Guile libraries can now be installed here:\n    Source files: $HOMEBREW_PREFIX/share/guile/site/3.0\n  Compiled files: $HOMEBREW_PREFIX/lib/guile/3.0/site-ccache\n      Extensions: $HOMEBREW_PREFIX/lib/guile/3.0/extensions\n\nAdd the following to your .bashrc or equivalent:\n  export GUILE_LOAD_PATH=\"$HOMEBREW_PREFIX/share/guile/site/3.0\"\n  export GUILE_LOAD_COMPILED_PATH=\"$HOMEBREW_PREFIX/lib/guile/3.0/site-ccache\"\n  export GUILE_SYSTEM_EXTENSIONS_PATH=\"$HOMEBREW_PREFIX/lib/guile/3.0/extensions\"\n",
-    "linked_keg": "3.0.9"
+    "linked_keg": "3.0.9_1"
   },
   {
     "name": "helix",
@@ -253,7 +261,15 @@
     "homepage": "https://httpie.io/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "3.2.2_3"
+    "linked_keg": "3.2.2_4"
+  },
+  {
+    "name": "hurl",
+    "desc": "Run and Test HTTP Requests with plain text and curl",
+    "homepage": "https://hurl.dev",
+    "tap": "homebrew/core",
+    "caveats": null,
+    "linked_keg": "4.2.0"
   },
   {
     "name": "hyperfine",
@@ -269,7 +285,7 @@
     "homepage": "https://imagemagick.org/index.php",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "7.1.1-26"
+    "linked_keg": "7.1.1-29_1"
   },
   {
     "name": "jinja2-cli",
@@ -293,7 +309,7 @@
     "homepage": "https://github.com/casey/just",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "1.22.1"
+    "linked_keg": "1.25.0"
   },
   {
     "name": "libffi",
@@ -338,15 +354,15 @@
   {
     "name": "mise",
     "desc": "Polyglot runtime manager (asdf rust clone)",
-    "homepage": "https://github.com/jdx/mise",
+    "homepage": "https://mise.jdx.dev/",
     "tap": "homebrew/core",
     "caveats": "If you are using fish shell, mise will be activated for you automatically.\n",
-    "linked_keg": "2024.1.16"
+    "linked_keg": "2024.3.1"
   },
   {
     "name": "mysql-client",
     "desc": "Open source relational database management system",
-    "homepage": "https://dev.mysql.com/doc/refman/8.2/en/",
+    "homepage": "https://dev.mysql.com/doc/refman/8.3/en/",
     "tap": "homebrew/core",
     "caveats": null,
     "linked_keg": null
@@ -373,7 +389,7 @@
     "homepage": "https://nginx.org/",
     "tap": "homebrew/core",
     "caveats": "Docroot is: $HOMEBREW_PREFIX/var/www\n\nThe default port has been set in $HOMEBREW_PREFIX/etc/nginx/nginx.conf to 8080 so that\nnginx can run without sudo.\n\nnginx will load all files in $HOMEBREW_PREFIX/etc/nginx/servers/.\n",
-    "linked_keg": "1.25.3"
+    "linked_keg": "1.25.4"
   },
   {
     "name": "node",
@@ -381,7 +397,7 @@
     "homepage": "https://nodejs.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "21.5.0"
+    "linked_keg": "21.7.0"
   },
   {
     "name": "nushell",
@@ -389,7 +405,7 @@
     "homepage": "https://www.nushell.sh",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.89.0"
+    "linked_keg": "0.91.0"
   },
   {
     "name": "p7zip",
@@ -405,7 +421,7 @@
     "homepage": "https://pandoc.org/",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "3.1.11.1"
+    "linked_keg": "3.1.12.2"
   },
   {
     "name": "pcre",
@@ -437,15 +453,15 @@
     "homepage": "https://pnpm.io/",
     "tap": "homebrew/core",
     "caveats": "pnpm requires a Node installation to function. You can install one with:\n  brew install node\n",
-    "linked_keg": "8.14.1"
+    "linked_keg": "8.15.4"
   },
   {
     "name": "postgresql@16",
     "desc": "Object-relational database system",
     "homepage": "https://www.postgresql.org/",
     "tap": "homebrew/core",
-    "caveats": "This formula has created a default database cluster with:\n  initdb-16 --locale=C -E UTF-8 $HOMEBREW_PREFIX/var/postgresql@16\nFor more details, read:\n  https://www.postgresql.org/docs/16/app-initdb.html\n\nCommands have been installed with the suffix \"-16\".\nTo use these commands with their normal names, you can modify your PATH:\n  PATH=\"$HOMEBREW_PREFIX/opt/postgresql@16/libexec/bin:$PATH\"\n",
-    "linked_keg": "16.1_2"
+    "caveats": "This formula has created a default database cluster with:\n  initdb --locale=C -E UTF-8 $HOMEBREW_PREFIX/var/postgresql@16\nFor more details, read:\n  https://www.postgresql.org/docs/16/app-initdb.html\n",
+    "linked_keg": "16.2_1"
   },
   {
     "name": "pspg",
@@ -501,7 +517,7 @@
     "homepage": "https://surrealdb.com",
     "tap": "surrealdb/tap",
     "caveats": "For local development only, this formula ships a launchd config\nto start a single-node cluster that stores its data under:\n  $HOMEBREW_PREFIX/var/\nThe database is available on the default port of 8000:\n  http://localhost:8000\n",
-    "linked_keg": "1.0.0"
+    "linked_keg": "1.2.2"
   },
   {
     "name": "swiftlint",
@@ -533,7 +549,7 @@
     "homepage": "https://tmux.github.io/",
     "tap": "homebrew/core",
     "caveats": "Example configuration has been installed to:\n  $HOMEBREW_PREFIX/opt/tmux/share/tmux\n",
-    "linked_keg": "3.3a_3"
+    "linked_keg": "3.4"
   },
   {
     "name": "typst",
@@ -565,7 +581,7 @@
     "homepage": "https://github.com/ducaale/xh",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.20.1"
+    "linked_keg": "0.21.0"
   },
   {
     "name": "xplr",
@@ -581,7 +597,7 @@
     "homepage": "https://github.com/sxyazi/yazi",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.1.5"
+    "linked_keg": "0.2.3"
   },
   {
     "name": "you-get",
@@ -613,6 +629,6 @@
     "homepage": "https://github.com/ajeetdsouza/zoxide",
     "tap": "homebrew/core",
     "caveats": null,
-    "linked_keg": "0.9.2"
+    "linked_keg": "0.9.4"
   }
 ]

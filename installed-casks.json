@@ -24,15 +24,15 @@
     "homepage": "https://github.com/peripheryapp/periphery",
     "desc": null,
     "caveats": null,
-    "installed": "2.17.1"
+    "installed": "2.18.0"
   },
   {
     "token": "provisionql",
     "full_token": "provisionql",
     "name": "ProvisionQL",
     "homepage": "https://github.com/ealeksandrov/ProvisionQL",
-    "desc": "QuickLook plugin for mobile apps and provisioning profiles",
-    "caveats": "To prevent mobileprovision QuickLook override by Xcode:\n\n  https://github.com/ealeksandrov/ProvisionQL/issues/20\n",
+    "desc": "Quick Look plugin for mobile apps and provisioning profiles",
+    "caveats": "To prevent mobileprovision Quick Look override by Xcode:\n\n  https://github.com/ealeksandrov/ProvisionQL/issues/20\n",
     "installed": "1.6.4"
   },
   {
@@ -40,9 +40,18 @@
     "full_token": "quicklook-json",
     "name": "quick look JSON",
     "homepage": "http://www.sagtau.com/quicklookjson.html",
-    "desc": "QuickLook plugin for JSON files",
+    "desc": "Quick Look plugin for JSON files",
     "caveats": null,
     "installed": "2,1.0"
+  },
+  {
+    "token": "squirrel",
+    "full_token": "squirrel",
+    "name": "Squirrel",
+    "homepage": "https://rime.im/",
+    "desc": "Rime input method engine",
+    "caveats": null,
+    "installed": "0.16.2"
   },
   {
     "token": "temurin",
@@ -51,6 +60,6 @@
     "homepage": "https://adoptium.net/",
     "desc": "JDK from the Eclipse Foundation (Adoptium)",
     "caveats": null,
-    "installed": "21.0.1,12"
+    "installed": "21.0.2,13"
   }
 ]
