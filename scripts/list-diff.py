@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import sys, json 
+import sys, json
 import subprocess
 
 def diff_message():
@@ -61,11 +61,11 @@ def cask_diff_message():
 def crate_diff_message():
     with open('./installed-crates-bins.txt') as f:
         list = f.readlines()
-    crates = dict(map(lambda x: x.strip().split(' '), list))
+    crates = dict(map(lambda x: x.strip().split(' ')[:2], list))
     try:
         old_content = subprocess.check_output(['git', 'show', 'HEAD:installed-crates-bins.txt'], stderr=subprocess.DEVNULL)
         old_list = old_content.decode('utf-8').strip().split('\n')
-        old_crates = dict(map(lambda x: x.strip().split(' '), old_list))
+        old_crates = dict(map(lambda x: x.strip().split(' ')[:2], old_list))
     except subprocess.CalledProcessError:
         old_crates = {}
 
@@ -87,7 +87,7 @@ def crate_diff_message():
         message.append('Updated:\n' + '\n'.join(changed_info))
 
     return '\n\n'.join(message)
-    
+
 
 if __name__ == '__main__':
     messages = []

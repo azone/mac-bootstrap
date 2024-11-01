@@ -1,12 +1,13 @@
-biodiff v1.1.0
-cargo-expand v1.0.79
+biodiff v1.2.1
+cargo-expand v1.0.92
 cargo-info v0.7.6
 cargo-show-asm v0.2.30
 cargo-shuttle v0.41.0
 irust v1.71.15
-mdbook v0.4.37
+mdbook v0.4.40
 mdbook-epub v0.4.34
-sccache v0.7.7
+mdbook-typst-pdf v0.5.1
+sccache v0.8.1
 termusic v0.7.10
 xcp v0.10.0
 zellij v0.37.2

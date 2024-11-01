@@ -18,13 +18,22 @@
     "installed": "py310_23.1.0-1"
   },
   {
+    "token": "mitmproxy",
+    "full_token": "mitmproxy",
+    "name": "mitmproxy",
+    "homepage": "https://mitmproxy.org/",
+    "desc": "Intercept, modify, replay, save HTTP/S traffic",
+    "caveats": null,
+    "installed": "11.0.0"
+  },
+  {
     "token": "periphery",
     "full_token": "peripheryapp/periphery/periphery",
     "name": "Periphery",
     "homepage": "https://github.com/peripheryapp/periphery",
     "desc": null,
     "caveats": null,
-    "installed": "2.18.0"
+    "installed": "2.21.1"
   },
   {
     "token": "provisionql",
@@ -45,6 +54,15 @@
     "installed": "2,1.0"
   },
   {
+    "token": "reqable",
+    "full_token": "reqable",
+    "name": "Reqable",
+    "homepage": "https://reqable.com/",
+    "desc": "Advanced API Debugging Proxy",
+    "caveats": null,
+    "installed": "2.12.0"
+  },
+  {
     "token": "squirrel",
     "full_token": "squirrel",
     "name": "Squirrel",
@@ -60,6 +78,6 @@
     "homepage": "https://adoptium.net/",
     "desc": "JDK from the Eclipse Foundation (Adoptium)",
     "caveats": null,
-    "installed": "21.0.2,13"
+    "installed": "23.0.1,11"
   }
 ]
