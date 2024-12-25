@@ -24,7 +24,7 @@
     "homepage": "https://mitmproxy.org/",
     "desc": "Intercept, modify, replay, save HTTP/S traffic",
     "caveats": null,
-    "installed": "11.0.0"
+    "installed": "11.0.2"
   },
   {
     "token": "periphery",
@@ -33,7 +33,7 @@
     "homepage": "https://github.com/peripheryapp/periphery",
     "desc": null,
     "caveats": null,
-    "installed": "2.21.1"
+    "installed": "2.21.2"
   },
   {
     "token": "provisionql",
