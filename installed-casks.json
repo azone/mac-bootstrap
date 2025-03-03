@@ -24,7 +24,7 @@
     "homepage": "https://mitmproxy.org/",
     "desc": "Intercept, modify, replay, save HTTP/S traffic",
     "caveats": null,
-    "installed": "11.0.2"
+    "installed": "11.1.3"
   },
   {
     "token": "periphery",
@@ -78,6 +78,6 @@
     "homepage": "https://adoptium.net/",
     "desc": "JDK from the Eclipse Foundation (Adoptium)",
     "caveats": null,
-    "installed": "23.0.1,11"
+    "installed": "23.0.2,7"
   }
 ]

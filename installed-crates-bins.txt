@@ -1,10 +1,10 @@
 biodiff v1.2.1
-cargo-expand v1.0.95
+cargo-expand v1.0.100
 cargo-info v0.7.7
-cargo-show-asm v0.2.45
-mdbook v0.4.40
-mdbook-epub v0.4.34
+cargo-show-asm v0.2.48
+mdbook v0.4.45
+mdbook-epub v0.4.44
 mdbook-typst-pdf v0.5.1
-sccache v0.9.0
-xcp v0.10.0
-zellij v0.37.2
+sccache v0.10.0
+xcp v0.23.1
+zellij v0.41.2
